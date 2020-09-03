@@ -90,7 +90,7 @@
                             let moniValue = parseFloat(firstPart) - parseFloat(secondPart);
                             if(moniValue == 0)printMonitor("0");
                             else printMonitor(moniValue);
-                        }else if(moniString[i] == '*'){
+                        }else if(moniString[i] == 'x'){
                             secondPart = gotSecondPart(i, moniString);
                             let moniValue = parseFloat(firstPart) * parseFloat(secondPart);
                             printMonitor(moniValue);
